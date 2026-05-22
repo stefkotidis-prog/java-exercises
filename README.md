@@ -4,8 +4,9 @@ A collection of Java standalone programs and logic challenges ranging from basic
 
 ## 📁 Project Highlights
 
-| File / Exercise | Core Concepts | Description |
+| File / Folder | Core Concepts | Description |
 | :--- | :--- | :--- |
+| **`InsuranceApp/`** | OOP, Inheritance, Downcasting | **Insurance Management System:** A multi-file CLI application simulating an insurance database. Uses inheritance (`Life` and `Health` extending `Insurance`) and object downcasting (`instanceof`) to manage and search customer policies. |
 | **`GameUI.java`** & **`BinaryEngine.java`** | Swing GUI, Binary Logic | **Binary Master:** An interactive 8-bit game. Users toggle bit tiles (0/1) to match a random target decimal number. Features real-time sum calculation and visual feedback. |
 | **`DiceSimulator.java`** | Statistics, Array Indexing | Rolls two dice 36,000 times and tracks the sum frequencies using direct array access. Outputs a terminal-based bell curve histogram. |
 | **`DeckOfCards.java`** | OOP, Arrays, Algorithms | Simulates a standard 52-card deck. Includes custom object creation (`Card` class) and implements a Fisher-Yates style shuffling algorithm. |
@@ -15,11 +16,11 @@ A collection of Java standalone programs and logic challenges ranging from basic
 * **Language:** Java 17+
 * **Frameworks:** Java Swing (Standard Library)
 * **Environment:** Command Line & Graphical User Interface (GUI)
-* **Key Skills:** GUI Event Handling, Binary Math, Array Indexing, and Logic Optimization.
+* **Key Skills:** OOP Architecture (Inheritance, Polymorphism), GUI Event Handling, Binary Math, Array Indexing, and Logic Optimization.
 
 ## 🚀 How to Run
 
-### 1. Terminal-based Programs
+### 1. Single-File Terminal Programs
 To run standard logic exercises, compile and execute the specific file:
 ```bash
 javac FileName.java

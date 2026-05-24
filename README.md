@@ -6,6 +6,7 @@ A collection of Java standalone programs and logic challenges ranging from basic
 
 | File / Folder | Core Concepts | Description |
 | :--- | :--- | :--- |
+| **`MusicManager/`** <br>*(Menu, Singer, Song)* | OOP, Static Members, Array Management | **Music Management System:** A CLI application to manage singers and their discography. Demonstrates object linking, static arrays across classes, and interactive terminal menus using `Scanner` loops. |
 | **`InsuranceApp/`** | OOP, Inheritance, Downcasting | **Insurance Management System:** A multi-file CLI application simulating an insurance database. Uses inheritance (`Life` and `Health` extending `Insurance`) and object downcasting (`instanceof`) to manage and search customer policies. |
 | **`GameUI.java`** & **`BinaryEngine.java`** | Swing GUI, Binary Logic | **Binary Master:** An interactive 8-bit game. Users toggle bit tiles (0/1) to match a random target decimal number. Features real-time sum calculation and visual feedback. |
 | **`DiceSimulator.java`** | Statistics, Array Indexing | Rolls two dice 36,000 times and tracks the sum frequencies using direct array access. Outputs a terminal-based bell curve histogram. |

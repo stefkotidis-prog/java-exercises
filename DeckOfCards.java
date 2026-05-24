@@ -1,6 +1,6 @@
 import java.util.Random;
 
-// 1. Η κλάση Card (ΔΕΝ είναι public για να μπει στο ίδιο αρχείο)
+
 class Card {
     private final String face; 
     private final String suit; 
@@ -15,7 +15,7 @@ class Card {
     }
 }
 
-// 2. Η κύρια κλάση (Πρέπει να έχει το ίδιο όνομα με το αρχείο .java)
+
 public class DeckOfCards {
     private Card[] deck; 
     private int currentCard; 
@@ -53,10 +53,10 @@ public class DeckOfCards {
         }
     }
 
-    // 3. Η main μέθοδος για να το τρέξεις και να δεις αν δουλεύει
+    
     public static void main(String[] args) {
         DeckOfCards myDeck = new DeckOfCards();
-        myDeck.shuffle(); // Ανακάτεμα
+        myDeck.shuffle(); 
 
         System.out.println("Μοίρασμα 5 καρτών:");
         for (int i = 0; i < 5; i++) {

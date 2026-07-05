@@ -33,7 +33,7 @@ public class SlotMachine {
             }
         }
         
-        System.out.println("Your starting balance is: $" + balance);
+
         
         while (balance > 0) {
             System.out.println("Your current balance is: $" + balance);

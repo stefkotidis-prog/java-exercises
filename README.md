@@ -18,6 +18,7 @@ A collection of Java exercises ranging from basic syntax to object-oriented prog
 | **`ResponseTracker.java`** | Array Indexing | **Frequency Tracker:** Uses direct array indexing to count and store data frequencies instead of nested loops. |
 
 ## Tech Stack
+
 * **Language:** Java 17+
 * **Frameworks:** Java Swing (Standard Library)
 * **Environment:** Command Line & Graphical User Interface
@@ -26,9 +27,16 @@ A collection of Java exercises ranging from basic syntax to object-oriented prog
 ## How to Run
 
 ### 1. Single-File Terminal Programs
-To run standard logic exercises, compile and execute the specific file:
-### 2. Multi-File Terminal Programs
-
+To run standard logic exercises, compile and execute the specific file from your terminal:
 ```bash
 javac FileName.java
 java FileName
+```
+
+### 2. Multi-File Projects (Folders)
+For projects organized in folders containing multiple interconnected files (e.g., `UniversitySystem/` or `AtmSimulator/`), navigate into the specific project directory, compile all `.java` files together, and run the file containing the main method:
+```bash
+cd ProjectFolderName
+javac *.java
+java MainClassName
+```

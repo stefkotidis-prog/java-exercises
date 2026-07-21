@@ -33,7 +33,6 @@ public class Insurance {
     public static void printInsurances() {
         for (int i = 0; i < insuranceArray.length; i++) {
             if (insuranceArray[i] != null) {
-                // BUG FIXED: Ήταν σκέτο insuranceArray, τώρα είναι insuranceArray[i]
                 System.out.println(insuranceArray[i]); 
             }
         }

@@ -14,7 +14,7 @@ public class Health extends Insurance {
     @Override
     public double calculateCost() {
         int age = 0;
-        boolean isMale = false; // Έκανα το flag πιο περιγραφικό
+        boolean isMale = false; 
         
         for (int i = 0; i < Customer.customerArray.length; i++) {
             if (Customer.customerArray[i] != null) {

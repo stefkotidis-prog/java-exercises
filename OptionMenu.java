@@ -1,20 +1,17 @@
 import java.util.Scanner;
 import java.util.InputMismatchException;
 
-/**
- * Controller class.
- * Handles user inputs, menus, and transaction routing.
- */
+
 public class OptionMenu extends Atm {
     Scanner menuInput = new Scanner(System.in);
 
-    //Small constructor for account details
+
     public OptionMenu() {
         setCustomerNumber(12345);
         setPinNumber(1111);
     }
 
-    //Account login page
+
     public void getLogin() {
 
         System.out.println("Welcome to the ATM Project!");
@@ -42,7 +39,7 @@ public class OptionMenu extends Atm {
             } 
         } catch (InputMismatchException e) {
             System.out.println("\nERROR: Please enter numbers only.");
-            menuInput.nextLine(); // Clear scanner buffer
+            menuInput.nextLine(); 
             getLogin();
         }
     }
@@ -58,15 +55,15 @@ public class OptionMenu extends Atm {
 
         switch (selection) {
             case 1:
-                //gets user to checking account
+                
                 getChecking();
                 break;
             case 2:
-                //gets user to savings account
+                
                 getSaving();
                 break;
             case 3:
-                //user exits
+                
                 System.out.println("You chose to exit. Thank you for using this ATM, bye!");
                 System.exit(0);
                 break;
@@ -76,7 +73,7 @@ public class OptionMenu extends Atm {
         }
     }
     
-    //checkings account options
+
     public void getChecking() {
         System.out.println("\nYou are currently in Checking Account choose an option:");
         System.out.println(" 1 - View Balance");
@@ -88,7 +85,7 @@ public class OptionMenu extends Atm {
         int selection = menuInput.nextInt();
 
         switch (selection) {
-            //checking balace option
+
             case 1:
                 System.out.println("Balance: " + moneyFormat.format(getCheckingBalance()));
                 getAccountType();

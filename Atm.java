@@ -1,9 +1,6 @@
 import java.text.DecimalFormat;
 
-/**
- * Core data model for the ATM.
- * Handles user credentials and account balances securely.
- */
+
 public class Atm {
     private int customerNumber;
     private int pinNumber;
@@ -11,7 +8,7 @@ public class Atm {
     private double savingBalance = 0;
     
 
-    //Printing more appealing to user putting $ sign and comma every three digits and removing decimals if not needed
+    
     DecimalFormat moneyFormat = new DecimalFormat("'$'###,##0.00");
 
     public void setCustomerNumber(int customerNumber) {
@@ -38,7 +35,7 @@ public class Atm {
         return savingBalance;
     }
 
-    // Methods used for calculating and updating transactions
+    
     public void calcCheckingWithdraw(double amount) {
         checkingBalance = checkingBalance - amount;
     }

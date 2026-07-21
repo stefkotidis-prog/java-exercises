@@ -18,7 +18,6 @@ public class Customer {
 
     @Override
     public String toString() {
-        // BUG FIXED: Προστέθηκαν κενά και κόμματα για να διαβάζεται σωστά
         return "Customer [name: " + name + ", birth year: " + birthYear + ", gender: " + gender + ", passcode: " + passcode + "]";
     }
 

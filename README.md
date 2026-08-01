@@ -1,6 +1,6 @@
 # Java Programming Exercises
 
-A collection of Java exercises ranging from basic syntax to object-oriented programming (OOP). This repository contains standalone programs for practicing core Java concepts, logic, and user interface development.
+A collection of Java exercises ranging from basic syntax to object-oriented programming (OOP). This repository contains standalone programs for practicing core Java concepts, logic, and for basic user interface development.
 
 ## Project Highlights
 

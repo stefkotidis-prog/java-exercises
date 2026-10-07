@@ -6,6 +6,7 @@ A collection of Java exercises ranging from basic syntax to object-oriented prog
 
 | File / Folder | Core Concepts | Description |
 | :--- | :--- | :--- |
+| **`HoopsTrainingTracker/`** <br>*(Athlete, BasketballPlayer, TrainingSession, RosterManager, Main)* | OOP, Inheritance, ArrayLists, Exception Handling | **Hoops Training Tracker:** A CLI application managing a basketball team roster. Tracks player stats (like vertical jump), records training sessions via object composition, and features a robust interactive menu with input validation. |
 | **`UniversitySystem/`** <br>*(Student, UnderStudent, GradStudent, ExamsTest2)* | OOP, Inheritance, Polymorphism | **University Grading System:** A grading system demonstrating class inheritance, method overriding, and polymorphic arrays. Uses `instanceof` to check graduation eligibility. |
 | **`InsuranceApp/`** | OOP, Inheritance, Downcasting | **Insurance Management System:** A CLI application simulating an insurance database. Uses inheritance and object downcasting to manage customer policies. |
 | **`AtmSimulator/`** <br>*(Atm, OptionMenu)* | OOP, Encapsulation, Exception Handling | **ATM Terminal Simulator:** Includes login validation, checking and savings accounts, standard transactions, and `try-catch` blocks for input error handling. |

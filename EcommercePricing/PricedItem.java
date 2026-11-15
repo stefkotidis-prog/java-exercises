@@ -1,5 +1,5 @@
 package EcommercePricing;
 
-public class PricedItem {
-    
+public interface PricedItem {
+    int getFinalPrice();
 }

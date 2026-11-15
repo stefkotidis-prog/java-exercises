@@ -1,5 +1,5 @@
 package EcommercePricing;
 
-public class Discountable {
-    
+public interface Discountable {
+    int applyCoupon(int discountPercentage);
 }

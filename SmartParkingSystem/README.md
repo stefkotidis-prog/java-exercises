@@ -41,10 +41,3 @@ Compile and run the application using javac or an IDE.
 - Invalid input must be handled safely.
 - Data should persist between application runs.
 
-## TODO
-- [ ] Domain model
-- [ ] Parking management
-- [ ] Pricing engine
-- [ ] File persistence
-- [ ] Reports
-- [ ] Unit tests

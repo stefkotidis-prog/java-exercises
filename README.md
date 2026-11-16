@@ -26,19 +26,10 @@ A collection of Java exercises ranging from basic syntax to object-oriented prog
 * **Environment:** Command Line & Graphical User Interface
 * **Key Skills:** OOP (Inheritance, Polymorphism), Exception Handling, Arrays, GUI Basics
 
-## How to Run
+## Build Instructions
 
-### 1. Single-File Terminal Programs
-To run standard logic exercises, compile and execute the specific file from your terminal:
-```bash
-javac FileName.java
-java FileName
-```
+This repository is structured as a **Maven Multi-Module Project**. 
 
-### 2. Multi-File Projects (Folders)
-For projects organized in folders containing multiple interconnected files (e.g., `UniversitySystem/` or `AtmSimulator/`), navigate into the specific project directory, compile all `.java` files together, and run the file containing the main method:
+To compile all projects simultaneously from the root directory:
 ```bash
-cd ProjectFolderName
-javac *.java
-java MainClassName
-```
+mvn clean package

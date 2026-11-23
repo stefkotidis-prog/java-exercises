@@ -1,11 +1,12 @@
 # Java Programming Exercises
 
-A collection of Java exercises ranging from basic syntax to object-oriented programming (OOP). This repository includes programs for practicing core Java concepts, logic, and for basic user interface development.
+A collection of Java exercises ranging from basic syntax to object-oriented programming (OOP) and multithreading. This repository includes programs for practicing core Java concepts, concurrency, logic, and basic user interface development.
 
 ## Project Highlights
 
 | File / Folder | Core Concepts | Description |
 | :--- | :--- | :--- |
+| **`TicketBookingSimulator/`** <br>*(TicketCounter, CustomerTask, Main)* | Multithreading, `Runnable`, Synchronization, `join()` | **Ticket Booking Simulator:** A concurrent CLI simulation of multiple customers booking tickets simultaneously. Demonstrates thread creation, race condition prevention using `synchronized`, thread coordination via `join()`, and booking summary tracking. |
 | **`HoopsTrainingTracker/`** <br>*(Athlete, BasketballPlayer, TrainingSession, RosterManager, Main)* | OOP, Inheritance, ArrayLists, Exception Handling | **Hoops Training Tracker:** A CLI application managing a basketball team roster. Tracks player stats (like vertical jump), records training sessions via object composition, and features a robust interactive menu with input validation. |
 | **`EcommercePricing/`** <br>*(PricedItem, Discountable, ProductBundle, StandardProduct, ClearanceProduct)* | Interfaces, Multiple Implementation, Inheritance, Method Overriding | **E-commerce Pricing System:** An OOP-based system calculating product prices and applying coupons using interfaces. Demonstrates multiple interface implementation, class inheritance, and static counters. |
 | **`UniversitySystem/`** <br>*(Student, UnderStudent, GradStudent, ExamsTest2)* | OOP, Inheritance, Polymorphism | **University Grading System:** A grading system demonstrating class inheritance, method overriding, and polymorphic arrays. Uses `instanceof` to check graduation eligibility. |
@@ -24,12 +25,13 @@ A collection of Java exercises ranging from basic syntax to object-oriented prog
 * **Language:** Java 17+
 * **Frameworks:** Java Swing (Standard Library)
 * **Environment:** Command Line & Graphical User Interface
-* **Key Skills:** OOP (Inheritance, Polymorphism), Exception Handling, Arrays, GUI Basics
+* **Key Skills:** OOP (Inheritance, Polymorphism), Multithreading & Synchronization, Exception Handling, Arrays, GUI Basics
 
 ## Build Instructions
 
-This repository is structured as a **Maven Multi-Module Project**. 
+This repository is structured as a **Maven Multi-Module Project**.
 
 To compile all projects simultaneously from the root directory:
 ```bash
 mvn clean package
+```

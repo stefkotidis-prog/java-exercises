@@ -17,3 +17,11 @@ TicketBookingSimulator/
     ├── TicketCounter.java
     ├── CustomerTask.java
     └── Main.java
+```
+
+## How to Run
+```bash
+mvn compile -pl TicketBookingSimulator
+mvn exec:java -pl TicketBookingSimulator
+```
+

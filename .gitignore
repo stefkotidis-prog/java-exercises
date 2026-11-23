@@ -24,3 +24,7 @@ hs_err_pid*
 replay_pid*
 
 target/
+
+# macOS files
+.DS_Store
+**/.DS_Store

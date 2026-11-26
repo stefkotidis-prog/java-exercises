@@ -1,3 +1,3 @@
-public class CallParticipant {
+public class CallParticipant extends Runnable{
     
 }

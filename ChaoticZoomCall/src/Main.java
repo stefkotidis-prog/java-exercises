@@ -9,8 +9,10 @@ public class Main {
             new CallParticipant("Alex",    "WAIT, IS THE DEADLINE TONIGHT?!", 7, 20)
         };
 
+        Thread[] thread = new Thread[participants.length];
+
         for (int i = 0; i < participants.length; i++) {
-            thread[i] = new Threasd(participants[i]);
+            thread[i] = new Thread(participants[i]);
         }
 
         for (int i = 0; i < participants.length; i++) {

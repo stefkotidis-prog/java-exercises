@@ -28,6 +28,7 @@
         <module>SlotMachine</module>
         <module>SmartParkingSystem</module>
         <module>UniversitySystem</module>
+        <module>ChaoticZoomCall</module>
     </modules>
 
 </project>

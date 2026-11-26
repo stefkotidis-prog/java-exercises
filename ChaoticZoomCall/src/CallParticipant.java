@@ -1,4 +1,4 @@
-public class CallParticipant extends Runnable{
+public class CallParticipant implements Runnable{
     private String name;
     private String catchphrase;
     private int intervalSeconds;
@@ -17,12 +17,12 @@ public class CallParticipant extends Runnable{
     public void run() {
         try {
             while (hereFor < patienceSeconds) {
-                Thread.sleep(intervalSeconds);
+                Thread.sleep(intervalSeconds * 1000);
                 System.out.println(name + catchphrase);
-
+                hereFor += intervalSeconds;
             }
         } catch (InterruptedException e) {
-            System.out.println(name + "lost connection! (Wi-Fi died)")
+            System.out.println(name + "lost connection! (Wi-Fi died)");
         } finally {
             System.out.println(name + "left the call");
         }

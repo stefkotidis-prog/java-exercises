@@ -1,7 +1,22 @@
-How to Run
+# Chaotic Zoom Call
 
-Option 1: Using Maven (from the repository root)
+A Java multithreading exercise simulating a chaotic group project call where participants speak at different intervals until their patience runs out or the host ends the meeting.
 
-Compile and run in one command:
+## Core Concepts
 
-mvn compile exec:java -pl ChaoticZoomCall
+* `Thread` & `Runnable`
+* `Thread.sleep()`
+* Thread interruption (`interrupt()` & `InterruptedException`)
+* `finally` blocks & `Thread.join()`
+
+## Project Structure
+
+```text
+ChaoticZoomCall/
+├── pom.xml
+├── README.md
+└── src/
+    ├── CallParticipant.java
+    └── Main.java
+΄΄΄
+

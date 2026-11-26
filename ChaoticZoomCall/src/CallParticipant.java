@@ -23,6 +23,8 @@ public class CallParticipant extends Runnable{
             }
         } catch (InterruptedException e) {
             System.out.println(name + "lost connection! (Wi-Fi died)")
+        } finally {
+            System.out.println(name + "left the call");
         }
     }
 

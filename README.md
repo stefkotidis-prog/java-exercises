@@ -39,4 +39,6 @@ mvn clean package
 ```
 
 To run a specific module configured with exec-maven-plugin (e.g., TicketBookingSimulator or GenericLinkedList):
+```bash
+mvn exec:java -pl <ModuleName>
 ```

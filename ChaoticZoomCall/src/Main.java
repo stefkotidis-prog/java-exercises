@@ -8,5 +8,13 @@ public class Main {
             new CallParticipant("Kostas",  "[loud chewing noises] ...yeah I totally agree.", 5, 10),
             new CallParticipant("Alex",    "WAIT, IS THE DEADLINE TONIGHT?!", 7, 20)
         };
+
+        for (int i = 0; i < participants.length; i++) {
+            thread[i] = new Threasd(participants[i]);
+        }
+
+        for (int i = 0; i < participants.length; i++) {
+            thread[i].start();
+        }
     }
 }

@@ -21,3 +21,8 @@ GenericPair/
     ├── Drink.java
     └── Main.java
 ```
+## How to run:
+
+```bash
+mvn compile exec:java -pl GenericPair
+```
